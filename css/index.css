@@ -1,0 +1,67 @@
+body{
+    margin:0 auto;
+    width: 100%;
+    max-width:1500px;
+    max-height: 768px;
+    display: flex;
+}
+#leftcontainer{
+    width:25%;
+    height: 100%;
+}
+#myphoto{
+    height:250px;
+    text-align: center;
+    background:url("../images/backmyphoto.jpg") no-repeat;
+}
+#myphoto img{
+    margin-top:35px;
+    border-radius:50%;
+}
+#navigation div{
+    display:flex;
+}
+#navigation ul{
+    margin:0 auto;
+    padding: 0;
+    background-color: #0B0B3B;
+}
+#navigation li{
+    padding: 20px 0px;
+    list-style: none;
+    width: 100%;
+    margin:0;
+    text-align: center;
+}
+#navigation li a{
+    text-decoration: none;
+    font-family:'Arvo', serif;
+    font-size:20px;
+    color: white;
+    padding:5px 30px;
+}
+#navigation li a:hover{
+    font-size: 25px;
+    color: #0080FF;
+}
+
+/*Right container*/
+
+#rightcontainer{
+    width:75%;
+    background:url("../images/backleft2.png") no-repeat;
+}
+#header{
+    font-family: 'Raleway', sans-serif;
+}
+#header h2{
+    font-size:40px;
+}
+#header p{
+    font-family: 'PT Sans', sans-serif;
+    font-size:19px;
+}
+#socials li{
+    display: inline-block;
+    
+}
