@@ -48,15 +48,15 @@ body{
 
 #rightcontainer{
     width:75%;
-    background:url("../images/backleft2.png") no-repeat;
 }
 #header{
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    background-color: #F2F2F2;
 }
 #header h2{
     font-size:40px;
-    border-bottom-color:1 solid black;
+    padding-top: 20px;
 }
 #header p{
     font-family: 'PT Sans', sans-serif;

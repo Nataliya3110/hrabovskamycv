@@ -17,32 +17,45 @@
             </div>
             <div id="navigation">
                 <ul>
-                    <li><img src="images/aboutme.png" width="30px" height="30px"/><a href="#aboutme">About me</a></li><hr>
-                    <li><img src="images/skills.png" width="30px" height="30px"/><a href="#skills">Skills</a></li><hr>
-                    <li><img src="images/education.png" width="30px" height="30px"/><a href="#education">Education</a></li><hr>
-                    <li><img src="images/portfolio.png" width="30px" height="30px"/><a href="#portfolio">Portfolio</a></li><hr>
-                    <li><img src="images/email.png" width="30px" height="30px"/><a href="#contacts">Contact me</a></li>
+                    <li><img src="images/aboutme.png" width="30px" height="30px"/><a id="menu-aboutme" href="#aboutme">About me</a></li><hr>
+                    <li><img src="images/skills.png" width="30px" height="30px"/><a id="menu-skills" href="#skills">Skills</a></li><hr>
+                    <li><img src="images/education.png" width="30px" height="30px"/><a id="menu-education" href="#education">Education</a></li><hr>
+                    <li><img src="images/portfolio.png" width="30px" height="30px"/><a id="menu-portfolio" href="#portfolio">Portfolio</a></li><hr>
+                    <li><img src="images/email.png" width="30px" height="30px"/><a id="menu-contacts" href="#contacts">Contact me</a></li>
                 </ul>
             </div>  
         </div>
         <div id="rightcontainer">
             <div id="header" class="header">
                 <h2>Hrabovska Nataliya</h2>
-                <hr>
-                <p>(067)675 14 06 / nataliya.hoynyak@gmail.com / Lviv</p>
+                <p>(067) 675 14 06 / nataliya.hoynyak@gmail.com / Lviv</p>
                 <ul>
                     <li><img src="images/facebook.png" width="35px" height="35px" /></li>
                     <li><img src="images/github.png" width="35px" height="35px" /></li>
                     <li><img src="images/linkedin.png" width="35px" height="35px" /></li>
                 </ul>
             </div>
-            <main>
-                <div id="aboutme">About me</div>
-                <div id="skills">Skills</div>
-                <div id="education">Education</div>
-                <div id="portfolio">Portfolio</div>
-                <div id="contacts">Contacts</div>
+            <main id="content">
+                <div id="aboutme" style="display:none">
+                    <dl>
+                        <dt>My hobbies</dt>
+                        <dd>Skying</dd>
+                        <dd>Riding a bicycle</dd>
+                        <dt>My dreams</dt>
+                        <dd>Worldaround trip</dd>
+                        <dd>Built pet rest zone</dd>
+                        <dt>My hobbies</dt>
+                    </dl>
+                </div>
+                <div id="skills" style="display:none">
+                    <progress value="22" max="100"></progress>
+                </div>
+                <div id="education" style="display:none">Education</div>
+                <div id="portfolio" style="display:none">Portfolio</div>
+                <div id="contacts" style="display:none">Contacts</div>
             </main>
         </div>
+    <script src="//code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="js/sections-controler.js"></script>
     </body>
 </html>
