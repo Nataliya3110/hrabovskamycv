@@ -6,6 +6,7 @@
         <title>Nataliya Hrabovska</title>
         <link href="css/normalize.css" rel="stylesheet" type="text/css">
         <link href="css/index.css" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
@@ -17,11 +18,30 @@
             </div>
             <div id="navigation">
                 <ul>
-                    <li><img src="images/aboutme.png" width="30px" height="30px"/><a id="menu-aboutme" href="#aboutme">About me</a></li><hr>
-                    <li><img src="images/skills.png" width="30px" height="30px"/><a id="menu-skills" href="#skills">Skills</a></li><hr>
-                    <li><img src="images/education.png" width="30px" height="30px"/><a id="menu-education" href="#education">Education</a></li><hr>
-                    <li><img src="images/portfolio.png" width="30px" height="30px"/><a id="menu-portfolio" href="#portfolio">Portfolio</a></li><hr>
-                    <li><img src="images/email.png" width="30px" height="30px"/><a id="menu-contacts" href="#contacts">Contact me</a></li>
+                    <li>
+                        <img src="images/aboutme.png" width="30px" height="30px"/>
+                        <a id="menu-aboutme" href="#aboutme">About me</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="images/skills.png" width="30px" height="30px"/>
+                        <a id="menu-skills" href="#skills">Skills</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="images/education.png" width="30px" height="30px"/>
+                        <a id="menu-education" href="#education">Education</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="images/portfolio.png" width="30px" height="30px"/>
+                        <a id="menu-portfolio" href="#portfolio">Portfolio</a>
+                    </li>
+                    <hr>
+                    <li>
+                        <img src="images/email.png" width="30px" height="30px"/>
+                        <a id="menu-contacts" href="#contacts">Contact me</a>
+                    </li>
                 </ul>
             </div>  
         </div>
@@ -30,29 +50,42 @@
                 <h2>Hrabovska Nataliya</h2>
                 <p>(067) 675 14 06 / nataliya.hoynyak@gmail.com / Lviv</p>
                 <ul>
-                    <li><img src="images/facebook.png" width="35px" height="35px" /></li>
-                    <li><img src="images/github.png" width="35px" height="35px" /></li>
-                    <li><img src="images/linkedin.png" width="35px" height="35px" /></li>
+                    <li>
+                        <a href="https://www.facebook.com/natalia.goinyak">
+                            <img src="images/facebook.png" width="35px" height="35px" />
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Nataliya3110">
+                            <img src="images/github.png" width="35px" height="35px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/natalia-hrabovska-67700744">
+                            <img src="images/linkedin.png" width="35px" height="35px" />
+                        </a>
+                    </li>
                 </ul>
             </div>
             <main id="content">
-                <div id="aboutme" style="display:none">
+                <div id="invitation"><img src="images/dreambig.jpg" alt="Dream big" /></div>
+                <div class="section" id="aboutme" style="display:none">
                     <dl>
-                        <dt>My hobbies</dt>
-                        <dd>Skying</dd>
-                        <dd>Riding a bicycle</dd>
-                        <dt>My dreams</dt>
-                        <dd>Worldaround trip</dd>
-                        <dd>Built pet rest zone</dd>
+                        <dt><h3>My hobbies</h3></dt>
+                            <dd>Skying</dd>
+                            <dd>Riding a bicycle</dd>
+                        <dt><h3>My dreams</h3></dt>
+                            <dd>Worldaround trip</dd>
+                            <dd>Built pet rest zone</dd>
                         <dt>My hobbies</dt>
                     </dl>
                 </div>
-                <div id="skills" style="display:none">
-                    <progress value="22" max="100"></progress>
+                <div class="section" id="skills" style="display:none">
+                    <p>HTML<progress value="22" max="100"></progress></p>
                 </div>
-                <div id="education" style="display:none">Education</div>
-                <div id="portfolio" style="display:none">Portfolio</div>
-                <div id="contacts" style="display:none">Contacts</div>
+                <div class="section" id="education" style="display:none">Education</div>
+                <div class="section" id="portfolio" style="display:none">Portfolio</div>
+                <div class="section" id="contacts" style="display:none">Contacts</div>
             </main>
         </div>
     <script src="//code.jquery.com/jquery-2.2.2.min.js"></script>

@@ -1,3 +1,4 @@
+/* Left container*/
 body{
     margin:0 auto;
     width: 100%;
@@ -53,10 +54,13 @@ body{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     background-color: #F2F2F2;
+    height: 30%;
 }
 #header h2{
     font-size:40px;
-    padding-top: 20px;
+    padding:50px 20px 20px 20px;
+    border-bottom: 3px solid #0B0B3B;
+    margin:0px 80px 30px 80px;
 }
 #header p{
     font-family: 'PT Sans', sans-serif;
@@ -65,4 +69,14 @@ body{
 #header li{
     display: inline-block;
     padding-left: 20px;
+}
+#header ul{
+    margin-bottom: 19px;
+}
+#invitation{
+    height: 445px;
+}
+#invitation img{
+    width: 100%;
+    height:100%;
 }
