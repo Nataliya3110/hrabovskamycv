@@ -52,15 +52,17 @@ body{
 }
 #header{
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 #header h2{
     font-size:40px;
+    border-bottom-color:1 solid black;
 }
 #header p{
     font-family: 'PT Sans', sans-serif;
     font-size:19px;
 }
-#socials li{
+#header li{
     display: inline-block;
-    
+    padding-left: 20px;
 }
