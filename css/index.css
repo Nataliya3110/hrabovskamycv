@@ -1,8 +1,8 @@
 body{
     margin:0 auto;
     width: 100%;
-    max-width:1500px;
-    max-height: 768px;
+    max-width:1499px;
+    max-height: 695px;
     display: flex;
 }
 #leftcontainer{
@@ -27,11 +27,10 @@ body{
     background-color: #0B0B3B;
 }
 #navigation li{
-    padding: 20px 0px;
+    padding: 20px 0px 20px 80px;
     list-style: none;
     width: 100%;
     margin:0;
-    text-align: center;
 }
 #navigation li a{
     text-decoration: none;
