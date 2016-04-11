@@ -10,6 +10,10 @@
     display: inline-block;
     padding: 0px 30px;
 }
+#photocv{
+    height:200px;
+    width:375px;
+}
 #circle span {
     top: -30px;
     left: 2%;
@@ -33,4 +37,60 @@ progress::-webkit-progress-value {
 }
 progress::-moz-progress-bar {
     background-color: #329ad1;
+}
+form{
+    display: block;
+    margin-top: 0em;
+}
+#contactform{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+#contactform #msg{
+    display: inline;
+}
+#contacts h2{
+    margin:0 auto;
+}
+input[type=text]{
+    width: 50%;
+    padding:12px 20px;
+    margin-top: 20px;
+    background-color: #CED8F6;
+    border-bottom: 1px solid black;
+    border-radius:1px;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+input[type=email]{
+    width: 50%;
+    padding:12px 20px;
+    margin-top: 20px;
+    background-color: #CED8F6;
+    border-bottom: 1px solid black;
+    border-radius:1px;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+#msg{
+    width: 50%;
+    padding:12px 20px;
+    margin-top: 20px;
+    background-color: #CED8F6;
+    border-bottom: 1px solid black;
+    border-radius:1px;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    font-size: 14px;
+}
+#submitbutton{
+    background-color: #CED8F6;
+    font-size: 20px;
+    border: 1 solid #0B0B61;
+    border-radius:25%;
+    padding: 5px 15px;
+    text-align: center;
 }
