@@ -1,4 +1,36 @@
 .section{
     margin:0 auto;
-    padding:20px 80px;
+    padding:30px 80px;
+    font-family: 'PT Sans', sans-serif;
+}
+#portfolio ul{
+    list-style: none;
+}
+#portfolio li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+#circle span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+}
+progress {
+    background-color: #f3f3f3;
+    border: 0;
+    height: 2.5em;
+    width: 100%;
+}
+progress::-webkit-progress-bar {
+    background-color: #e0eaf0;
+}
+progress::-webkit-progress-value {
+    background-color: #329ad1;
+}
+progress::-moz-progress-bar {
+    background-color: #329ad1;
 }

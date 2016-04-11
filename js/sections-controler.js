@@ -6,7 +6,7 @@ $(function() {
 	
 	    changeContentSectionTo("#invitation");
 	
-	    $("#menu-aboutme, #menu-skills,#menu-education, #portfolio, #menu-contacts").click(function(event) {
+	    $("#menu-aboutme, #menu-skills,#menu-education, #menu-portfolio, #menu-contacts").click(function(event) {
 	        var contentID = event.target.id.replace("menu-", "#");
 	        changeContentSectionTo(contentID, 700);
 	    });
